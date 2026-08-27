@@ -1,0 +1,26 @@
+{
+  "name": "apexquant-institutional-engine",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Proprietary Institutional Quantitative Trading, Order Matching & Risk Engine (100,000+ LOC)",
+  "main": "server/gateway/GatewayServer.js",
+  "scripts": {
+    "start": "node server/gateway/GatewayServer.js",
+    "dev": "node server/gateway/GatewayServer.js",
+    "test": "node tests/runner.js"
+  },
+  "keywords": [
+    "quantitative-finance",
+    "matching-engine",
+    "orderbook",
+    "black-scholes",
+    "monte-carlo-var",
+    "fix-protocol",
+    "proprietary"
+  ],
+  "author": "Institutional Quant Engineering Group",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
