@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  apexquant:
+    build: .
+    container_name: apexquant_app
+    ports:
+      - "4000:4000"
+    restart: always
